@@ -1,4 +1,59 @@
+.container {
+  max-width: 500px;
+  background: pink;
+  margin: 0 auto;
+  padding: 50px;
+  box-shadow: rgba(233, 90, 209, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
 body {
   text-align: center;
   color: palevioletred;
+  background: white;
+}
+select {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 10px;
+  background: palevioletred;
+  color: pink;
+}
+.city {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+  border-bottom: 1px dashed purple;
+  padding: 20px 0;
+}
+.city:last-child {
+  border: none;
+}
+.time {
+  display: flex;
+  font-size: 40px;
+  font-weight: bold;
+  align-items: center;
+}
+.time small {
+  font-size: small;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+.date {
+  opacity: 0.7;
+}
+footer {
+  text-align: center;
+  font-size: 20px;
 }
