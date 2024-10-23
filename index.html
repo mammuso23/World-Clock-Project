@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World-Clock🕛</title>
   </head>
   <body>
@@ -13,45 +15,47 @@
         <option value="">Select a city...</option>
         <option value="">London 🇬🇧</option>
         <option value="">Hawaii 🇺🇸</option>
-        <option value="">Tokyo 🇿🇦</option>
+        <option value="">Tokyo 🇨🇳</option>
         <option value="">Sydney 🇦🇺</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="london">
         <div>
           <h2>London 🇬🇧</h2>
-          <div class="date">October 21 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">19:57:22 <small> PM</small></div>
+        <div class="time"></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="hawaii">
         <div>
           <h2>Hawaii 🇺🇸</h2>
-          <div class="date">October 21 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">19:57:22 <small> PM</small></div>
+        <div class="time"></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="tokyo">
         <div>
-          <h2>Tokyo 🇿🇦</h2>
-          <div class="date">October 21 2024</div>
+          <h2>Tokyo 🇨🇳</h2>
+          <div class="date"></div>
         </div>
-        <div class="time">19:57:22 <small>PM</small></div>
+        <div class="time"></div>
       </div>
 
-      <div class="city">
+      <div class="city" id="sydney">
         <div>
           <h2>Sydney 🇦🇺</h2>
-          <div class="date">October 21 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">19:57:22 <small>PM</small></div>
+        <div class="time"></div>
       </div>
     </div>
+
+    <footer>
+      Coded by <strong>Mammuso Mokoena</strong> and is open sourced on
+      <a href="https://github.com/mammuso23/World-Clock-Project.git">Github.</a>
+    </footer>
+    <script src="index.js"></script>
   </body>
-  <footer>
-    Coded by <strong>Mammuso Mokoena</strong> and is open sourced on
-    <a href="https://github.com/mammuso23/World-Clock-Project.git">Github.</a>
-  </footer>
 </html>
