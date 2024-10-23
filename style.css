@@ -11,6 +11,11 @@ body {
   color: palevioletred;
   background: white;
 }
+a:-webkit-any-link {
+  color: purple;
+  cursor: pointer;
+  text-decoration: underline;
+}
 select {
   display: block;
   width: 100%;
